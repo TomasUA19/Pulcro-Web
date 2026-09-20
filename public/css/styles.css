@@ -279,8 +279,10 @@ main {
 
     .btn-link {
         text-decoration: none;
-        color: white;
         border-radius: 5px;
     }
 
+    #imgderell{
+        display: none !important;
+    }
 }
