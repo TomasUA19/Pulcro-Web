@@ -1,6 +1,7 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont;
     background-color: white;
+    padding: 20px;
 }
 
 #welcome {
@@ -66,12 +67,15 @@ main {
 }
 
 #informacion {
-    padding: 40px 30px; /* Añade un poco de respiro general */
+    padding: 40px 30px;
+    /* Añade un poco de respiro general */
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsivo para móviles */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    /* Responsivo para móviles */
     gap: 40px;
-    align-items: center; /* Alinea verticalmente los elementos de ambas columnas */
-    background: linear-gradient(275deg, #3b5998, white);
+    align-items: center;
+    /* Alinea verticalmente los elementos de ambas columnas */
+    background: linear-gradient(175deg, #3b5998, #6880b5, white, white);
 }
 
 #contacto {
@@ -79,15 +83,18 @@ main {
 }
 
 #redes-sociales {
-    justify-self: end; /* Alinea todo el bloque derecho hacia la derecha */
+    justify-self: end;
+    /* Alinea todo el bloque derecho hacia la derecha */
 }
 
 #informacion article ul {
     list-style-type: none;
-    padding: 0; /* Quitamos el padding extra que desalineaba */
+    padding: 0;
+    /* Quitamos el padding extra que desalineaba */
     display: flex;
     gap: 15px;
-    justify-content: flex-start; /* Los botones fluyen de manera natural */
+    justify-content: flex-start;
+    /* Los botones fluyen de manera natural */
 }
 
 #imgderell {
@@ -103,24 +110,67 @@ main {
 }
 
 #servicios-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px 0;
+    padding: 20px;
+    gap: 10px;
 }
 
-.servicio {
-    background: #ffffff;
+.servicio-1 {
+    background-image: url("/public/resources/MuebleP.jpg");
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     border: 1px solid #eaeaea;
+    text-align: center;
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 250px; 
+}
+
+.servicio-2 {
+    background-image: url("/public/resources/Colchon.jpeg");
+    background-size: cover;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eaeaea;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 250px;
+}
+
+.servicio-3 {
+    background-image: url("/public/resources/Alfombra.jpeg");
+    background-size: cover;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eaeaea;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 250px;
+}
+
+.servicio-4 {
+    background-image: url("/public/resources/Tapiceria2.jpg");
+    background-size: cover;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eaeaea;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 250px;
 }
 
 #servicios-list h4 {
-    margin-top: 10px;
+    padding: 20px 0px;
     font-size: 1.1rem;
-    color: #333333;
+    color: rgb(207, 250, 255);
 }
 
 .btn-link {
@@ -169,12 +219,6 @@ main {
 
 }
 
-#tool-section {
-
-    box-shadow: rgb(215, 213, 213) 0px 0px 7px;
-    border-radius: 10px;
-}
-
 .tool-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -219,6 +263,8 @@ main {
     align-items: center;
     text-align: center;
     color: #ffffff;
+    display: grid;
+    grid-template-rows: 1fr 90px;
 }
 
 .tool-info h3 {
@@ -270,7 +316,7 @@ main {
         /* Espacio entre el logo y el texto */
     }
 
-    
+
     #social-media {
         list-style: none;
         padding-left: 0;
