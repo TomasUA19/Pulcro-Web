@@ -115,7 +115,7 @@ main {
 }
 
 .servicio-1 {
-    background-image: url("resources/MuebleP.jpg");
+    background-image: url("/resources/MuebleP.jpg");
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
@@ -128,7 +128,7 @@ main {
 }
 
 .servicio-2 {
-    background-image: url("resources/Colchon.jpeg");
+    background-image: url("/resources/Colchon.jpeg");
     background-size: cover;
     padding: 20px;
     border-radius: 8px;
@@ -142,7 +142,7 @@ main {
 }
 
 .servicio-3 {
-    background-image: url("resources/Alfombra.jpeg");
+    background-image: url("/resources/Alfombra.jpeg");
     background-size: cover;
     padding: 20px;
     border-radius: 8px;
@@ -155,7 +155,7 @@ main {
 }
 
 .servicio-4 {
-    background-image: url("resources/Tapiceria2.jpg");
+    background-image: url("/resources/Tapiceria2.jpg");
     background-size: cover;
     padding: 20px;
     border-radius: 8px;
