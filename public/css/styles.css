@@ -44,10 +44,9 @@ main {
 
 #quienes-somos {
     box-shadow: rgb(215, 213, 213) 0px 0px 7px;
-}
-
-#quienes-somos {
+    border-radius: 10px;
     flex: 1;
+    padding: 10px;
 }
 
 /* Estilos para la sección de servicios */
